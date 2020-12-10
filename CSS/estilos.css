@@ -294,6 +294,13 @@ transform: scale(1.1)!important;
     margin-top: 3rem;
 }
 
+.contenedor2{
+    border: 1px groove rgba(128, 128, 128, 0.281) ;
+    border-radius: 15px;
+    margin: 5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
 /* PRODUCTOS CON GRID */
 
 .area1{
