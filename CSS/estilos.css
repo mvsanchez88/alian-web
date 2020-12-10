@@ -291,7 +291,8 @@ transform: scale(1.1)!important;
 .box4{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .contenedor2{
