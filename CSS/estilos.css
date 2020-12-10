@@ -226,7 +226,7 @@ transform: scale(1.1)!important;
 /* MAIN  - CONTENEDOR 2 - SERVICIOS*/ 
 
 .servicios{
-    height: 500px;
+    height: 550px;
     background: rgb(0,30,66);
     background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
     text-align: center;
@@ -297,8 +297,15 @@ transform: scale(1.1)!important;
 .contenedor2{
     border: 1px groove rgba(128, 128, 128, 0.281) ;
     border-radius: 15px;
-    margin: 5rem;
+    margin: 0 12rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.fondo-tips{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    height: 800px;
 }
 
 /* PRODUCTOS CON GRID */
@@ -425,7 +432,6 @@ footer{
 .footer{
     background: rgb(0,30,66);
     background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
-    margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
