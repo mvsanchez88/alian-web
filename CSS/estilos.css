@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+
+
+body{
+    font-family: 'Mina', sans-serif!important;
+    color: #002343;
+}
+
+
+h2{
+    color: #002343;
+    text-align: center!important;
+    margin-top: 4rem!important;
+    margin-bottom: 4rem!important;
+    font-weight: bold!important;
+}
+
+h3{
+    color: #002343;
+    text-align: center;
+}
+
+/* CONTENEDOR 1*/
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+header{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    color: white;
+
+}
+
+
+.home{
+    background-image: url(../IMAGENES/Mesa\ de\ trabajo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* MEDIA QUERY HOME*/
+
+@media only screen and (max-width: 768px){
+    .home{
+        width: 100%;
+        background: rgb(0,30,66);
+        background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    }
+
+
+    .repuestos{
+        width: 100%;
+    }
+
+}
+
+
+.logo{
+    width: 15vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: inline-block
+}
+
+.text-home{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+
+    .text-home{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .text-home p{
+        margin-bottom: 3rem;
+    }
+
+}
+
+ul li a{
+    color: white!important;
+    text-align: right!important;
+    text-decoration: none!important;
+    background-image: linear-gradient(currentColor, currentColor)!important;
+    background-position: 0% 100%!important;
+    background-repeat: no-repeat!important;
+    background-size: 0% 2px!important;
+    transition: background-size .3s!important;
+}
+
+ul li a:hover, a:focus {
+    background-size: 100% 2px!important;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 30px;
+    text-align: right;
+}
+
+
+.top-menu{
+    text-align: right;
+    padding: 60px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+a.boton {
+    font-family: 'Michroma'!important;
+    font-size: 1rem;
+    color: white;
+    background-color:#002343;
+    border-radius: 6px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 2rem;
+    justify-items: center;
+    transition: 0.5s ease-in-out 0s;
+}
+
+
+a.boton:hover{
+    transform: scale(1.2)!important;
+    background-color: rgba(255, 255, 255, 0.829)!important;
+    color: #002343!important;
+    text-decoration: none!important;
+}
+
+
+
+
+
+@keyframes aparecer{
+
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+
+
+/*BOX1 - REPUESTOS*/
+
+.box1{
+    justify-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(../IMAGENES/main1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+
+.descrip{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.boton-prod{
+    margin-top: 2rem;
+}
+
+a.boton2 {
+    font-family: 'Michroma'!important;
+    font-size: 1rem;
+    color:#002343;
+    background-color:white;
+    border-radius: 6px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 2rem;
+    animation: aparecer;
+    animation-duration: 2s;
+    justify-items: center;
+    transition: 0.5s ease-in-out 0s
+}
+
+
+
+a.boton2:hover{
+background-color:#002343!important;
+color:white!important;
+text-decoration: none!important;
+transform: scale(1.1)!important;
+}
+
+
+
+
+
+
+/* MAIN  - CONTENEDOR 2 - SERVICIOS*/ 
+
+.servicios{
+    height: 500px;
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    text-align: center;
+}
+
+
+.titulo-servicios{
+    padding-top: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.box2{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box2 section{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px){
+    .box2 section{
+        width: 100%;
+    }
+
+    .servicios{
+        height: 800px;
+    }
+}
+
+.box2 section h3{
+    color: white;
+}
+
+.box2 section p{
+    color: white;
+}
+
+.img-1{
+    width: 20%;
+    margin-bottom: 1rem;
+
+}
+
+.titulo_box2{
+    margin-bottom: 2rem;
+}
+
+/*  TIPS HOME */
+
+.box4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* PRODUCTOS CON GRID */
+
+.area1{
+    grid-area: header;
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+}
+
+.area2{
+    margin-top: 0!important;
+    height: 100px;
+    grid-area: h1;
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    color: white;
+    font-size: 7vh;
+}
+
+@media only screen and (max-width: 768px){
+    .area1{
+        width: 100%;
+    }
+
+    .area2{
+        width: 100%;
+    }
+
+
+}
+
+.area4{
+    grid-area: img;
+    max-width: 100%;
+}
+
+
+.marca1{
+    grid-area: marca1;
+}
+
+.marca2{
+    grid-area: marca2;
+}
+
+.marca3{
+    grid-area: marca3;
+}
+
+.marca4{
+    grid-area: marca4;
+}
+
+.marca5{
+    grid-area: marca5;
+}
+
+.marca6{
+    grid-area: marca6;
+}
+
+.marca7{
+    grid-area: marca7;
+}
+
+.marca8{
+    grid-area: marca8;
+}
+
+.marca9{
+    grid-area: marca9;
+}
+
+
+
+.body-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header header header"
+    "h1 h1 h1 h1 h1 h1"
+    "img img img img img img"
+    "marca1 marca2 marca3 marca4 marca5 marca6"
+    "marca7 marca8 marca9 . . ."
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+    .body-grid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+.text-footer{
+    font-family: 'Mina', sans-serif!important;
+    font-size: smaller;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+a.text-footer{
+    padding: 0.5rem;
+    transition: 0.5s ease-in-out 0s
+}
+
+a.text-footer:hover{
+    text-decoration: none!important;
+    transform: scale(1.1)!important;
+    color: white!important;
+}
+
+footer{
+    width: 100%;
+}
+
+.footer{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+    align-items: center;
+}
+
+footer img{
+    height: 40px;
+}
+
+
+.menu-footer{
+    font-size: 0.8rem;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.contacto-footer{
+    text-align: center;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-footer{
+        display:none
+    }
+
+    .redes-footer{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* PAGINA CONTACTO*/
+
+
+legend{
+    font-family: 'Mina', sans-serif;
+    font-weight: bold;
+    color: #002343;
+}
+
+.contacto{
+    color: #002343;
+    text-decoration-line: none;
+}
+
+.form{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    color: white!important;
+}
+
+.form h3{
+    color: white!important;
+    font-weight: bold!important;
+}
+
+.link-home{
+    text-decoration-line: none;
+}
+
+/* TIPS */
+
+.contenedor-tips{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.acordeon{
+    margin: 20px;
+}
+
+.acordeon input {
+    display: none;
+    }
+
+.acordeon__titulo {
+    color: white;
+    display: block;
+    padding: 15px;
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 768px){
+    .acordeon__titulo{
+        font-size: 10rem;
+    }
+}
+.acordeon__titulo:hover {
+    background: gray;
+}
+
+.acordeon__contenido {
+    height: 0;
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.5s;
+    text-align: justify;
+}
+
+.acordeon__contenido p{
+    padding: 1rem;
+}
+
+.acordeon input:checked ~ .acordeon__contenido{
+    height: auto;
+    margin: 15px 0;
+}
+
+/*SERVICIOS*/
+
+.card-text{
+    text-align: center;
+}
+
