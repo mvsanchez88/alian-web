@@ -308,6 +308,9 @@ transform: scale(1.1)!important;
     height: 800px;
 }
 
+.titulo-tips{
+    font-size: 5rem;
+}
 /* PRODUCTOS CON GRID */
 
 .area1{
