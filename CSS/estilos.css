@@ -137,7 +137,7 @@ ul li{
 }
 
 @media only screen and (max-width: 768px){
-    
+
 }
 
 a.boton {
@@ -545,10 +545,12 @@ legend{
 }
 
 @media only screen and (max-width: 768px){
-    .acordeon__titulo{
-        font-size: 10rem;
+    .contenedor-tips{
+        width: 100%;
+        margin: 0;
     }
 }
+
 .acordeon__titulo:hover {
     background: gray;
 }
