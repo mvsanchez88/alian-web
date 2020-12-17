@@ -68,6 +68,7 @@ header{
         width: 100%;
         background: rgb(0,30,66);
         background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+        height: 750px;
     }
 
 
@@ -136,8 +137,56 @@ ul li{
     align-items: center;
 }
 
-@media only screen and (max-width: 768px){
+.menu-responsive{
+    display: none;
+}
 
+
+@media only screen and (max-width: 768px){
+    .menu-responsive{
+        display: inline-block;
+    }
+    
+    .top-menu ul{
+        display: none;
+    }
+    
+    .top-menu input:checked  ~ ul{
+        display:block;
+    
+    }
+
+    .top-menu input:checked  ~ ul{
+        
+    }
+
+    .top-menu input {
+        display: none;
+    }
+
+    .top-menu label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+
+
+    .top-menu li {
+        display: block;
+        margin: 0;
+        padding: 5px 15px;
+        list-style: none;
+        border-bottom: 1px solid white;
+    }
+
+    
 }
 
 a.boton {
