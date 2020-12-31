@@ -561,6 +561,7 @@ legend{
     font-weight: bold;
     text-decoration-line: none;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .form{
