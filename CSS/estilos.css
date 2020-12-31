@@ -537,6 +537,18 @@ footer img{
 
 /* PAGINA CONTACTO*/
 
+.contenedor1-contacto{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+}
+.contenedor-contacto{
+    border: 1px groove rgba(128, 128, 128, 0.281) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 2rem 4rem;
+    padding: 2rem 1rem;
+    background-color: white;
+}
 
 legend{
     font-family: 'Mina', sans-serif;
@@ -550,13 +562,12 @@ legend{
 }
 
 .form{
-    background: rgb(0,30,66);
-    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
-    color: white!important;
+    background: white;
+    color: #002343;
 }
 
 .form h3{
-    color: white!important;
+    color: #002343;
     font-weight: bold!important;
 }
 
@@ -564,6 +575,9 @@ legend{
     text-decoration-line: none;
 }
 
+.mapa{
+    
+}
 /* TIPS */
 
 .contenedor-tips{
