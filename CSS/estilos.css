@@ -68,7 +68,7 @@ header{
         width: 100%;
         background: rgb(0,30,66);
         background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
-        height: 7px;
+        height: 100vh;
     }
 
 
@@ -558,6 +558,7 @@ legend{
 
 .contacto{
     color: #002343;
+    font-weight: bold;
     text-decoration-line: none;
 }
 
@@ -576,7 +577,21 @@ legend{
 }
 
 .mapa{
-    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 768px){
+    .contenedor-contacto{
+        margin: 0 ;
+        padding: 1rem 0;
+    }
+
+    .mapa{
+        width: 100%;
+        height: 150;
+    }
+
+
 }
 /* TIPS */
 
