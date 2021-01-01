@@ -740,3 +740,23 @@ legend{
     padding: 2rem 1rem;
     background-color: white;
 }
+
+@media only screen and (max-width: 768px){
+    .contenedor-conocenos{
+        width: 100%;
+        margin: 0;
+    }
+
+    .img-alian{
+        width: 100%;
+    }
+}
+
+.contenedor-presu{
+    background: rgb(0,30,66);
+    background: linear-gradient(90deg, rgba(0,30,66,1) 0%, rgba(0,30,66,1) 38%, rgba(0,157,214,1) 100%);
+}
+
+.texto-presu{
+    color: white;
+}
