@@ -732,3 +732,11 @@ legend{
     text-align: center;
 }
 
+.contenedor-conocenos{
+    border: 1px groove rgba(128, 128, 128, 0.281) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 2rem 4rem 0 4rem;
+    padding: 2rem 1rem;
+    background-color: white;
+}
