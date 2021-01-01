@@ -447,7 +447,79 @@ transform: scale(1.1)!important;
     grid-area: marca9;
 }
 
+.baterias{
+    grid-area: imgbat;
+    max-width: 100%;
+}
 
+.bat1{
+    grid-area: bat1;
+}
+
+.bat2{
+    grid-area: bat2;
+}
+
+.bat3{
+    grid-area: bat3;
+}
+
+.bat4{
+    grid-area: bat4;
+}
+
+.bat5{
+    grid-area: bat5;
+}
+
+.bat6{
+    grid-area: bat6;
+}
+
+.bujias{
+    grid-area: imgbuj;
+    max-width: 100%;
+}
+
+.buj1{
+    grid-area: buj1;
+}
+
+.buj2{
+    grid-area: buj2;
+}
+
+.buj3{
+    grid-area: buj3;
+}
+
+.buj4{
+    grid-area: buj4;
+}
+
+.buj5{
+    grid-area: buj5;
+}
+
+.filtros{
+    grid-area: imgfil;
+    max-width: 100%;
+}
+
+.fil1{
+    grid-area: fil1;
+}
+
+.fil2{
+    grid-area: fil2;
+}
+.fil3{
+    grid-area: fil3;
+}
+
+.fil4{
+    grid-area: fil4;
+}
 
 .body-grid{
     display: grid;
@@ -458,6 +530,12 @@ transform: scale(1.1)!important;
     "img img img img img img"
     "marca1 marca2 marca3 marca4 marca5 marca6"
     "marca7 marca8 marca9 . . ."
+    "imgbat imgbat imgbat imgbat imgbat imgbat"
+    "bat1 bat2 bat3 bat4 bat5 bat6"
+    "imgbuj imgbuj imgbuj imgbuj imgbuj imgbuj"
+    "buj1 buj2 buj3 buj4 buj5 ."
+    "imgfil imgfil imgfil imgfil imgfil imgfil"
+    "fil1 fil2 fil3 fil4 . ."
     ;
     justify-content: center;
     align-items: center;
