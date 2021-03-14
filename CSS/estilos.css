@@ -741,6 +741,11 @@ legend{
     background-color: white;
 }
 
+.img-alian{
+    width: 90%;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px){
     .contenedor-conocenos{
         width: 100%;
